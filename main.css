@@ -1,0 +1,268 @@
+:root {
+    --black: rgb(57, 57, 59);
+    --green: rgb(44, 153, 163);
+    --azul: rgb(33, 111, 177);
+    --blanco: rgb(255,255,255);
+  }
+
+h1 {
+	  text-align: center;
+    color: var(--blanco);
+    text-shadow: 3px 3px rgb(72, 71, 71);
+    background-color: var(--azul);
+}
+.tituloParrafo {
+  background-color: var(--green);
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 242px;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 105px;
+}
+
+.textoParrafo{
+  font-size: 45px;
+  color: var(--blanco);
+
+}
+
+.textoParrafo span{
+  font-weight: bold;
+}
+.textoParrafo2{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.textoNegritaSubrrayado{
+  font-size:18px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: oblique;
+  Line-height: 30px
+}
+.Texto-2do-bloque{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 45px;
+}
+
+/* 
+ul {
+    font-family: helvetica;
+}
+li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  #msg {
+    font-family: monospace;
+  }
+  .light-theme {
+    --bg: var(--azul);
+    --fontColor: var(--blanco);
+  }
+  .dark-theme {
+    --bg: var(--azul);
+    --fontColor: var(--green);
+  }
+  div{
+    height: 200px;
+    background-color: #EEE;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .tituloParrafo-1{
+    font-size: 48px;
+    color: white;
+
+}
+
+.tituloParrafo-1 span{
+    font-weight: bold;
+}
+  *{ 
+    margin: 0;
+    padding: 0;
+}
+
+.textoParrafo{
+    color: var(--blanco)
+
+}
+
+.textoParrafo span{
+    font-weight: bold;
+}
+
+.textoFotoChica{
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.textoParrafoFoto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+}
+
+.textoParrafoFoto_1{
+    font-size: 28px;
+    background-color: rgb(54, 54, 54);
+    margin-bottom: 10px;
+    color: white;
+    max-width: 550px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: flex-end;
+}
+
+.textoParrafoFoto_2{
+    font-size: 18px;
+    max-width: 550px;
+    text-align: justify;
+    align-items: flex-end;
+    line-height: 2;
+}
+
+.lineaSeparadora{
+    border-top: 1px solid black;
+    max-width: 70%;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.caja1{
+    text-align: center;
+    color: var(--azul);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.caja2{
+    text-align: center;
+    margin-bottom: 100px;
+    ;
+}
+
+.cajas{
+    margin-bottom: 20px;
+    justify-content:center;
+}
+
+.cajasPartners{
+    margin: 0 auto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.cajasExperiencia{
+    background-color: var(--azul);
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    Line-height: 30px;
+    padding: 20px;
+}
+
+.cajasExperiencia span{
+    font-weight: bold;
+}
+
+.cajaAgentes{
+    background-color: var(--azul);
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    Line-height: 30px;
+    padding: 20px;
+}
+
+.cajaAgentes span{
+    font-weight: bold;
+}
+
+.cajaAutoservicio{
+    background-color: var(--azul);
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    Line-height: 30px;
+    padding: 20px;
+}
+
+
+.cajaAutoservicio span{
+    font-weight: bold;
+}
+
+.btnLeer{
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 5px;
+    color: var(--azul);
+    font-weight: bold;
+}
+
+.contactos{
+    background-color: var(--green);
+    text-align: center;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 105px;
+    color: white;
+}
+
+.contactos2{
+    background-image: url("./imagenes/Fondo1.png");
+    background-color: var(--azul);
+    margin: 0 auto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    gap: 50px;
+    height: 200px;
+}
+
+.Logo{
+  display: flex;
+  margin-top: 100px;
+}
+.numeroTelefonico{
+    justify-content: center;
+    margin-top: 55px;
+    color:white;
+}
+.Iconos{
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.Identificacion{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    height: 25px;
+}
